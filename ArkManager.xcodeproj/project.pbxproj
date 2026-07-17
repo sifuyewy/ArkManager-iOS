@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10001 /* ArkManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001; };
+		A10002 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20002; };
+		A10003 /* CodeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20003; };
+		A10004 /* ServerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20004; };
+		A10005 /* ArkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20005; };
+		A10006 /* CardApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20006; };
+		A10007 /* CommandExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20007; };
+		A10008 /* Prefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20008; };
+		A10009 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20009; };
+		A10010 /* CodeDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20010; };
+		A10011 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20011; };
+		A10012 /* ServerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20012; };
+		A10013 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20013; };
+		A10014 /* PlayerActionsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20014; };
+		A10015 /* CodeDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20015; };
+		A10016 /* GiftPackSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20016; };
+		A10017 /* GravestoneSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20017; };
+		A10018 /* SavesSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20018; };
+		A10019 /* AuthorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20019; };
+		A10020 /* ServerConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20020; };
+		A10021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20021; };
+		A10022 /* codes.txt in Resources */ = {isa = PBXBuildFile; fileRef = A20022; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20001 /* ArkManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkManagerApp.swift; sourceTree = "<group>"; };
+		A20002 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A20003 /* CodeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeItem.swift; sourceTree = "<group>"; };
+		A20004 /* ServerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConfig.swift; sourceTree = "<group>"; };
+		A20005 /* ArkApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkApi.swift; sourceTree = "<group>"; };
+		A20006 /* CardApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardApi.swift; sourceTree = "<group>"; };
+		A20007 /* CommandExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandExecutor.swift; sourceTree = "<group>"; };
+		A20008 /* Prefs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefs.swift; sourceTree = "<group>"; };
+		A20009 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		A20010 /* CodeDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeDatabase.swift; sourceTree = "<group>"; };
+		A20011 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A20012 /* ServerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerListView.swift; sourceTree = "<group>"; };
+		A20013 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A20014 /* PlayerActionsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerActionsSheet.swift; sourceTree = "<group>"; };
+		A20015 /* CodeDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeDetailSheet.swift; sourceTree = "<group>"; };
+		A20016 /* GiftPackSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftPackSheet.swift; sourceTree = "<group>"; };
+		A20017 /* GravestoneSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravestoneSheet.swift; sourceTree = "<group>"; };
+		A20018 /* SavesSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavesSheet.swift; sourceTree = "<group>"; };
+		A20019 /* AuthorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorSheet.swift; sourceTree = "<group>"; };
+		A20020 /* ServerConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConfigView.swift; sourceTree = "<group>"; };
+		A20021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20022 /* codes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = codes.txt; sourceTree = "<group>"; };
+		A30001 /* ArkManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArkManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50001 = {
+			isa = PBXGroup;
+			children = (
+				A50002 /* ArkManager */,
+				A50007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50002 /* ArkManager */ = {
+			isa = PBXGroup;
+			children = (
+				A50003 /* Models */,
+				A50004 /* API */,
+				A50005 /* Views */,
+				A50006 /* Utils */,
+				A50008 /* Resources */,
+				A20001 /* ArkManagerApp.swift */,
+				A20021 /* Assets.xcassets */,
+				A60001 /* Info.plist */,
+			);
+			path = ArkManager;
+			sourceTree = "<group>";
+		};
+		A50003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20002 /* Models.swift */,
+				A20003 /* CodeItem.swift */,
+				A20004 /* ServerConfig.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A50004 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A20005 /* ArkApi.swift */,
+				A20006 /* CardApi.swift */,
+				A20007 /* CommandExecutor.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A50005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20011 /* LoginView.swift */,
+				A20012 /* ServerListView.swift */,
+				A20013 /* MainView.swift */,
+				A20014 /* PlayerActionsSheet.swift */,
+				A20015 /* CodeDetailSheet.swift */,
+				A20016 /* GiftPackSheet.swift */,
+				A20017 /* GravestoneSheet.swift */,
+				A20018 /* SavesSheet.swift */,
+				A20019 /* AuthorSheet.swift */,
+				A20020 /* ServerConfigView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A50006 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A20008 /* Prefs.swift */,
+				A20009 /* ThemeManager.swift */,
+				A20010 /* CodeDatabase.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A50007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30001 /* ArkManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50008 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A20022 /* codes.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60001 /* ArkManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80001 /* Build configuration list for PBXNativeTarget "ArkManager" */;
+			buildPhases = (
+				A70001 /* Sources */,
+				A40001 /* Frameworks */,
+				A70002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArkManager;
+			productName = ArkManager;
+			productReference = A30001 /* ArkManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A60001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A80003 /* Build configuration list for PBXProject "ArkManager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50001;
+			productRefGroup = A50007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60001 /* ArkManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10021 /* Assets.xcassets in Resources */,
+				A10022 /* codes.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001 /* ArkManagerApp.swift in Sources */,
+				A10002 /* Models.swift in Sources */,
+				A10003 /* CodeItem.swift in Sources */,
+				A10004 /* ServerConfig.swift in Sources */,
+				A10005 /* ArkApi.swift in Sources */,
+				A10006 /* CardApi.swift in Sources */,
+				A10007 /* CommandExecutor.swift in Sources */,
+				A10008 /* Prefs.swift in Sources */,
+				A10009 /* ThemeManager.swift in Sources */,
+				A10010 /* CodeDatabase.swift in Sources */,
+				A10011 /* LoginView.swift in Sources */,
+				A10012 /* ServerListView.swift in Sources */,
+				A10013 /* MainView.swift in Sources */,
+				A10014 /* PlayerActionsSheet.swift in Sources */,
+				A10015 /* CodeDetailSheet.swift in Sources */,
+				A10016 /* GiftPackSheet.swift in Sources */,
+				A10017 /* GravestoneSheet.swift in Sources */,
+				A10018 /* SavesSheet.swift in Sources */,
+				A10019 /* AuthorSheet.swift in Sources */,
+				A10020 /* ServerConfigView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA0001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA0002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA0003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArkManager/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ark.manager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA0004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArkManager/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ark.manager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80001 /* Build configuration list for PBXNativeTarget "ArkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0003 /* Debug */,
+				AA0004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80003 /* Build configuration list for PBXProject "ArkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0001 /* Debug */,
+				AA0002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = A90001 /* Project object */;
+}
