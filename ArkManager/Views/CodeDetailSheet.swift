@@ -164,8 +164,8 @@ struct CodeDetailSheet: View {
             CommandExecutor.shared.execute(host: host, playerId: player.playerId, commands: editedCode) { results in
                 let ok = results.filter { $0.success }.count
                 DispatchQueue.main.async {
-                    totalDone++
-                    if ok > 0 { totalOk++ }
+                    totalDone += 1
+                    if ok > 0 { totalOk += 1 }
                     if totalDone == totalOps { toast("✅ \(totalOk)/\(totalOps)玩家成功") }
                 }
             }
